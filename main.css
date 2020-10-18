@@ -1,0 +1,162 @@
+/*  */
+
+p {
+    color: grey;
+}
+
+.login-btn {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 30px !important;
+    color: white !important;
+    border-radius: 6px;
+}
+
+.nav-na {
+    padding-right: 50px !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav a {
+    color: grey;
+}
+
+.mobile-illustration {
+    display: none;
+}
+
+.mobile-description {
+    display: none;
+}
+
+#icon {
+    color: blue;
+    margin-left: 10px;
+}
+
+#image-icon {
+    margin-top: -400px;
+}
+
+.navbar-toggler-icon {
+    color: black !important;
+}
+
+.firefox-btn {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+}
+
+.firefox-btn,
+.chrome-btn {
+    text-transform: none;
+    font-weight: 500;
+    outline: none !important;
+}
+
+#desktop-image-icon2 {
+    margin-left: 40px;
+}
+
+#desktop-image-icon {
+    margin-top: -700px;
+}
+
+.desktop-banner header {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 80px;
+    line-height: 120%;
+}
+
+.features p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 100px;
+}
+
+#hero4 {
+    margin-top: -700px;
+}
+
+#hero3 {
+    margin-left: -40px;
+}
+
+.right {
+    margin-top: 100px;
+}
+
+.right header {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* mobile */
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .mobile-illustration {
+        display: block;
+    }
+    .mobile-description header {
+        font-size: 28px;
+        font-weight: bolder;
+    }
+    .mobile-description {
+        display: block;
+    }
+    .desktop-banner {
+        display: none;
+    }
+    .features p {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .features h2 {
+        margin-top: 70px;
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin-left: 0;
+    }
+    .parent .active {
+        border-bottom-color: brown;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        padding-bottom: 5px;
+        font-weight: bolder !important;
+    }
+    .parent p {
+        font-size: 17px;
+        font-weight: bold;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding-bottom: 5px;
+    }
+    #hero4 {
+        margin-top: -400px;
+    }
+    #hero3 {
+        margin-left: -10px;
+    }
+    .right {
+        margin-top: -40px;
+        text-align: center;
+    }
+}
